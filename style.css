@@ -1,0 +1,31 @@
+
+
+
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:90vh;
+}
+
+
+.panel{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 3rem;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    transition: flex 0.9s ease-in;
+}
+
+.panel.active {
+    flex: 5;
+  }
+
+
+
+
